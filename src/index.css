@@ -1,13 +1,53 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  margin: 20px 40px 50px 40px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1 {
+  font-size: 24px;
+}
+.app-block {
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+.count-value {
+  padding: 10px 24px;
+  font-size: 26px;
+  background-color: #fff1e8;
+}
+button {
+  background-color: #ffceaa;
+  border: none;
+  padding: 10px 20px;
+  font-size: 30px;
+  cursor: pointer;
+}
+button.decrement {
+  color: #ffffff;
+}
+button.increment {
+  background-color: #c80000;
+  color: #ffffff;
+}
+.change-color {
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+}
+.color-box {
+  width: 200px;
+  height: 200px;
+  background-color: #dbdbdb;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+button.change-color-btn {
+  font-size: 15px;
+  font-weight: bold;
+  background-color: #c80000;
+  color: #ffffff;
 }
